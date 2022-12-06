@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(./Rubik-VariableFont_wght.woff2);
+}
+
+:root {
+  --clr-pri: hsl(246, 80%, 60%);
+  --clr-light-orange: hsl(15, 100%, 70%);
+  --clr-soft-blue: hsl(195, 74%, 62%);
+  --clr-light-red: hsl(348, 100%, 68%);
+  --clr-lime-green: hsl(145, 58%, 55%);
+  --clr-violet: hsl(264, 64%, 52%);
+  --clr-soft-orange: hsl(43, 84%, 65%);
+
+  --clr-very-dark-blue: hsl(226, 43%, 10%);
+  --clr-dark-blue: hsl(235, 46%, 20%);
+  --clr-desaturated-blue: hsl(235, 45%, 61%);
+  --clr-pale-blue: hsl(236, 100%, 87%);
+}
+html {
+  font-size: 18px;
+  font-family: "Rubik", serif;
+}
+body {
+  background-color: var(--clr-very-dark-blue);
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: auto;
+  margin-block: 1em;
+  gap: 1em;
+  color: white;
+}
+.content_card_main {
+  background: yellow;
+}
+
+.card {
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.content_card_sec {
+  position: relative;
+}
+.content_card_text,
+.content_card_main {
+  background-color: var(--clr-dark-blue);
+  margin-top: 3em;
+}
+
+.content_card_header {
+  background-color: var(--clr-pri);
+}
+.work {
+  background-color: var(--clr-light-orange);
+  margin-top: 2em;
+}
+.play {
+  background-color: var(--clr-soft-blue);
+}
+.content_card_text {
+  bottom: 0;
+}
+.study {
+  background-color: var(--clr-light-red);
+}
+.exercise {
+  background-color: var(--clr-lime-green);
+}
+.social {
+  background-color: var(--clr-violet);
+}
+.self-care {
+  background-color: var(--clr-soft-orange);
+}
+img {
+  height: 6em;
+  margin: 1.5em;
+  border: 4px solid white;
+  border-radius: 50%;
+}
